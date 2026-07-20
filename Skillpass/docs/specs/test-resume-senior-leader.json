@@ -1,0 +1,122 @@
+{
+  "name": "[Redacted] — Senior Technical Leader",
+  "headline": "Technical Director & Principal Engineer",
+  "about": "Distributed database systems, ML infrastructure, and technical leadership across multiple companies and roles spanning 16+ years.",
+  "yearsOfExperience": 16,
+  "education": [
+    {
+      "type": "education",
+      "title": "Bachelor of Engineering",
+      "organization": "University of Electronic Science and Technology of China",
+      "field": "Communications Engineering",
+      "startDate": "2006-09",
+      "endDate": "2010-06",
+      "isCurrent": false,
+      "description": "Communications Engineering program covering networking, signal processing, and C/C++ programming.",
+      "industry": "education",
+      "skillsUsed": ["Network", "C++", "C", "Communications"]
+    }
+  ],
+  "experiences": [
+    {
+      "type": "employment",
+      "title": "Technical Director",
+      "organization": "ClickHouse",
+      "startDate": "2024-03",
+      "endDate": null,
+      "isCurrent": true,
+      "description": "Leading technical strategy and architecture for distributed database systems. Driving product innovation and performance optimization.",
+      "industry": "technology",
+      "skillsUsed": ["Distributed Systems", "Database", "System Architecture"]
+    },
+    {
+      "type": "employment",
+      "title": "Principal Engineer",
+      "organization": "Shopee",
+      "startDate": "2021-08",
+      "endDate": "2024-03",
+      "isCurrent": false,
+      "description": "Designed and optimized large-scale ML-driven systems. Improved database performance and scalability.",
+      "industry": "technology",
+      "skillsUsed": ["Machine Learning", "Database"]
+    },
+    {
+      "type": "employment",
+      "title": "Cofounder",
+      "organization": "CovenantSQL",
+      "startDate": "2018-02",
+      "endDate": "2021-08",
+      "isCurrent": false,
+      "description": "Co-founded blockchain-based SQL database startup. Led product development and technical direction.",
+      "industry": "technology",
+      "skillsUsed": ["Database", "Blockchain", "System Architecture"],
+      "url": "https://covenantsql.io"
+    },
+    {
+      "type": "employment",
+      "title": "RecSys & Infrastructure Director",
+      "organization": "4Paradigm",
+      "startDate": "2016-07",
+      "endDate": "2018-02",
+      "isCurrent": false,
+      "description": "Directed recommendation system infrastructure. Oversaw engineering teams for scalable ML platforms.",
+      "industry": "technology",
+      "skillsUsed": ["Machine Learning", "System Architecture"]
+    },
+    {
+      "type": "employment",
+      "title": "Technical Director",
+      "organization": "eLong, Inc",
+      "startDate": "2015-01",
+      "endDate": "2016-07",
+      "isCurrent": false,
+      "description": "Managed technical teams for travel platform. Improved system reliability and scalability.",
+      "industry": "technology",
+      "skillsUsed": ["System Architecture", "System Reliability"]
+    },
+    {
+      "type": "employment",
+      "title": "Technical Manager",
+      "organization": "Qihoo 360",
+      "startDate": "2012-03",
+      "endDate": "2015-01",
+      "isCurrent": false,
+      "description": "Founded and led 360 Traffic Guard project. Directed wireless security research initiatives.",
+      "industry": "technology",
+      "skillsUsed": ["Security", "Network"]
+    },
+    {
+      "type": "employment",
+      "title": "OP Engineering Developer",
+      "organization": "Baidu, Inc.",
+      "startDate": "2010-07",
+      "endDate": "2012-03",
+      "isCurrent": false,
+      "description": "Designed Gingko Dataset Distribution System — implemented 90% of code in C++ with custom P2P algorithm. Built Medusa Visualization System with data collection server and visualization tools.",
+      "industry": "technology",
+      "skillsUsed": ["C++", "P2P", "Data Engineering"]
+    },
+    {
+      "type": "employment",
+      "title": "Python Programmer & SA Intern",
+      "organization": "Douban",
+      "startDate": "2009-07",
+      "endDate": "2009-09",
+      "isCurrent": false,
+      "description": "Developed automated web testing framework using Python, Bash, Selenium, and Web.py.",
+      "industry": "technology",
+      "skillsUsed": ["Python", "Bash"]
+    },
+    {
+      "type": "employment",
+      "title": "SA & Software Engineer",
+      "organization": "Stuhome Stardust Studio",
+      "startDate": "2008-05",
+      "endDate": "2009-08",
+      "isCurrent": false,
+      "description": "Built Python-based FTP server with quota and access control. Developed C/C++ compression tool with optimized LZ77 algorithm. Extended ProFTPD with custom module.",
+      "industry": "technology",
+      "skillsUsed": ["Python", "C++", "C", "Network"]
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+# Obsidian
+.obsidian/workspace
+.obsidian/workspace.json
+.obsidian/cache
+.obsidian/plugins/*/data.json
+.trash/
+
+# Excalidraw auto-export
+*.excalidraw.png
+
+# OS
+.DS_Store
+Thumbs.db

@@ -1,0 +1,168 @@
+{
+  "name": "[Redacted] — Data & Backend Professional",
+  "headline": "Information Technology Manager | Backend Engineer | Data Scientist",
+  "about": "Experienced in data science, backend engineering, and team leadership with a strong academic background in computer science. Research focus on secure and privacy-preserving federated learning systems.",
+  "yearsOfExperience": 6,
+  "education": [
+    {
+      "type": "education",
+      "title": "Master of Science in Computer Science",
+      "organization": "King Fahd University of Petroleum & Minerals (KFUPM)",
+      "startDate": "2024-01",
+      "endDate": "2025-12",
+      "isCurrent": false,
+      "description": "Fully funded scholarship. Research focus: Secure and privacy-preserving federated learning systems.",
+      "industry": "education",
+      "skillsUsed": ["Machine Learning", "Python", "Information Security", "Privacy"]
+    },
+    {
+      "type": "education",
+      "title": "Bachelor of Computer Science (Informatics)",
+      "organization": "UPN Veteran Jawa Timur",
+      "startDate": "2016-09",
+      "endDate": "2019-12",
+      "isCurrent": false,
+      "description": "Graduated in 3.5 years. Specialization in Machine Learning and Backend Engineering. Assistant Lecturer for Operating Systems (Linux).",
+      "industry": "education",
+      "skillsUsed": ["Python", "SQL", "Machine Learning", "Linux", "Operating Systems", "Web Development"]
+    }
+  ],
+  "experiences": [
+    {
+      "type": "employment",
+      "title": "Information Technology Manager",
+      "organization": "C3ARBON",
+      "startDate": "2026-03",
+      "endDate": "2026-06",
+      "isCurrent": false,
+      "description": "Translated business requirements into technical requirements and advised CEO on product development. Led product development and managed tasks for engineers (code review, database design, bug fixes).",
+      "industry": "technology",
+      "skillsUsed": ["Leadership", "Database", "System Architecture"]
+    },
+    {
+      "type": "employment",
+      "title": "Teaching Assistant",
+      "organization": "King Fahd University of Petroleum & Minerals",
+      "startDate": "2024-01",
+      "endDate": "2025-12",
+      "isCurrent": false,
+      "description": "Graded assignments and proctored exams for courses in NLP, Secure Software Development, Information Security, and Operating Systems. Assisted in lab sessions for Web Engineering & Development.",
+      "industry": "education",
+      "skillsUsed": ["NLP", "Information Security", "Operating Systems", "Web Development", "Python"]
+    },
+    {
+      "type": "employment",
+      "title": "Backend Engineer",
+      "organization": "PT. Bangunindo Teknusa Jaya",
+      "startDate": "2023-01",
+      "endDate": "2024-01",
+      "isCurrent": false,
+      "description": "Migrated databases for Bakti Palapa Ring project. Rewrote codebase from PHP to Python. Maintained and improved system performance. Collaborated across backend, frontend, and product teams.",
+      "industry": "technology",
+      "skillsUsed": ["Python", "FastAPI", "SQL", "PHP"]
+    },
+    {
+      "type": "employment",
+      "title": "Data Scientist",
+      "organization": "Ruangguru",
+      "startDate": "2022-03",
+      "endDate": "2022-11",
+      "isCurrent": false,
+      "description": "Enhanced SkillAcademy search with ElasticSearch. Conducted experiments on text processing for Roboguru. Maintained and scaled data science services.",
+      "industry": "technology",
+      "skillsUsed": ["Python", "SQL", "ElasticSearch", "Machine Learning"]
+    },
+    {
+      "type": "employment",
+      "title": "Data Team Lead",
+      "organization": "Widya Analytic",
+      "startDate": "2021-12",
+      "endDate": "2022-03",
+      "isCurrent": false,
+      "description": "Supervised data scientists, engineers, and DBAs. Coordinated product development direction with product owner. Ensured data availability for operations.",
+      "industry": "technology",
+      "skillsUsed": ["Python", "SQL", "Leadership"]
+    },
+    {
+      "type": "employment",
+      "title": "Data Scientist",
+      "organization": "Widya Analytic",
+      "startDate": "2021-01",
+      "endDate": "2021-11",
+      "isCurrent": false,
+      "description": "Built recommendation systems from research to production. Applied Python optimization with parallel processing. Maintained scripts and collaborated with engineers.",
+      "industry": "technology",
+      "skillsUsed": ["Python", "SQL", "Machine Learning"]
+    },
+    {
+      "type": "employment",
+      "title": "Apprentice Mentor",
+      "organization": "RMDS Narasio Data",
+      "startDate": "2021-09",
+      "endDate": "2021-11",
+      "isCurrent": false,
+      "description": "Mentored Associate Data Scientists during internships. Helped prepare and deliver project reports to stakeholders.",
+      "industry": "technology",
+      "skillsUsed": ["Mentoring", "Communication"]
+    },
+    {
+      "type": "employment",
+      "title": "Software Engineer Intern",
+      "organization": "PT. Pertamina (Persero)",
+      "startDate": "2019-12",
+      "endDate": "2020-01",
+      "isCurrent": false,
+      "description": "Developed employee data web app using PHP, jQuery, Chart.js, MySQL. Assisted in internal employee training sessions.",
+      "industry": "technology",
+      "skillsUsed": ["PHP", "SQL", "JavaScript", "Web Development"]
+    }
+  ],
+  "volunteering": [
+    {
+      "type": "volunteering",
+      "title": "Branding and Communication",
+      "organization": "Persatuan Pelajar dan Mahasiswa Indonesia Dhahran",
+      "startDate": "2025-01",
+      "endDate": "2025-12",
+      "isCurrent": false,
+      "description": "Managed branding and communication for Indonesian student organization in Saudi Arabia.",
+      "industry": "nonprofit",
+      "skillsUsed": ["Communication"]
+    },
+    {
+      "type": "volunteering",
+      "title": "Educational Staff",
+      "organization": "Data Science Indonesia",
+      "startDate": "2018-10",
+      "endDate": "2021-06",
+      "isCurrent": false,
+      "description": "Co-instructor and speaker at workshops and seminars. Organized and co-instructed a data science club at Trunojoyo University.",
+      "industry": "nonprofit",
+      "skillsUsed": ["Python", "Machine Learning", "Communication"]
+    }
+  ],
+  "certifications": [
+    {
+      "type": "certification",
+      "title": "Python (Intermediate)",
+      "organization": "HackerRank",
+      "startDate": "2020-09",
+      "endDate": null,
+      "isCurrent": false,
+      "description": "Python Intermediate Level certification.",
+      "industry": "technology",
+      "skillsUsed": ["Python"]
+    },
+    {
+      "type": "certification",
+      "title": "Data Foundations Nanodegree",
+      "organization": "Udacity",
+      "startDate": "2018-12",
+      "endDate": null,
+      "isCurrent": false,
+      "description": "Data Foundations Nanodegree Program.",
+      "industry": "technology",
+      "skillsUsed": ["Python", "Machine Learning", "SQL"]
+    }
+  ]
+}

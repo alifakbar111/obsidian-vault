@@ -1,0 +1,38 @@
+{
+  "name": "skillpass",
+  "private": true,
+  "scripts": {
+    "setup:local": "docker compose up db -d --wait && bun run db:migrate && bun run db:seed && echo '✓ Setup complete. Run `bun run dev` to start.'",
+    "dev": "concurrently -n markitdown,server,web -c yellow,cyan,green \"bun run dev:markitdown\" \"bun run dev:server\" \"bun --cwd web dev\"",
+    "dev:markitdown": "cd markitdown-service && python -m pip install -q -r requirements.txt && python -m uvicorn app:app --host 0.0.0.0 --port 8000 --reload",
+    "dev:server": "cd server-go && air -c .air.toml",
+    "dev:web": "bun --cwd web dev",
+    "build": "bun --cwd web build",
+    "build:server": "bun run build && rm -rf server-go/internal/static/dist && cp -r web/dist server-go/internal/static/dist && cd server-go && go build -o ../skillpass ./cmd/server",
+    "start": "./skillpass",
+    "db:migrate": "go -C server-go run ./cmd/migrate/",
+    "db:seed": "go -C server-go run ./cmd/seed/",
+    "db:generate": "echo 'Bun models are hand-written in server-go/internal/models/ — no codegen needed'",
+    "api:spec": "go -C server-go tool swag init -g cmd/server/main.go -o docs --parseDependency --parseInternal",
+    "api:types": "swagger2openapi --patch server-go/docs/swagger.json -o web/src/lib/generated/openapi.json && openapi-typescript web/src/lib/generated/openapi.json -o web/src/lib/generated/api.d.ts",
+    "api:generate": "bun run api:spec && bun run api:types",
+    "api:check": "bun run api:generate && git diff --exit-code -- server-go/docs web/src/lib/generated",
+    "docker:up": "docker compose up --build",
+    "docker:down": "docker compose down",
+    "lint": "biome check .",
+    "lint:fix": "biome check --write .",
+    "format": "biome format --write .",
+    "format:check": "biome format .",
+    "test": "bun run test:server && bun run test:web",
+    "test:server": "go -C server-go test ./... -count=1 -p=1",
+    "test:web": "bun --cwd web vitest run"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^2.5.0",
+    "concurrently": "^10.0.3",
+    "lefthook": "^2.1.9",
+    "openapi-typescript": "^7.13.0",
+    "swagger2openapi": "^7.0.8",
+    "typescript": "^6.0.3"
+  }
+}

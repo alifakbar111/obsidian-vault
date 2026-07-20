@@ -1,0 +1,19 @@
+{
+  "obsidian-importer:open-modal": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "I"
+    }
+  ],
+  "obsidian-git:commit-smart": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "G"
+    }
+  ]
+}
