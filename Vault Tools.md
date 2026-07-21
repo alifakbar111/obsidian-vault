@@ -1,7 +1,10 @@
 ---
 title: Vault Tools
 created: 2026-07-21
-tags: [area/work, type/reference, claude/vault]
+tags:
+  - area/work
+  - type/reference
+  - claude/vault
 status: evergreen
 ---
 
