@@ -9,7 +9,7 @@ status: evergreen
 
 Global skills used by the agent kit. Each skill lives in its own folder with a `SKILL.md` entry point.
 
-**50 skills.** Click any name to open the skill.
+**58 skills.** Click any name to open the skill.
 
 ## Core engineering
 
@@ -21,6 +21,8 @@ Global skills used by the agent kit. Each skill lives in its own folder with a `
 - [[Agent Kit/skills/refactor-plan/SKILL|refactor-plan]] — staged refactor plan
 - [[Agent Kit/skills/security-review/SKILL|security-review]] — OWASP audit
 - [[Agent Kit/skills/improve-codebase-architecture/SKILL|improve-codebase-architecture]]
+- [[Agent Kit/skills/audit-integrity/SKILL|audit-integrity]] — AppSec quality gate
+- [[Agent Kit/skills/write-coding-standards-from-file/SKILL|write-coding-standards-from-file]] — coding standards from files
 
 ## Testing
 
@@ -39,6 +41,7 @@ Global skills used by the agent kit. Each skill lives in its own folder with a `
 - [[Agent Kit/skills/build-dashboard/SKILL|build-dashboard]]
 - [[Agent Kit/skills/ux-copy/SKILL|ux-copy]]
 - [[Agent Kit/skills/ui-ux-pro-max/SKILL|ui-ux-pro-max]] *(if present)*
+- [[Agent Kit/skills/web-design-reviewer/SKILL|web-design-reviewer]] — visual inspection & fixes
 
 ## Planning / writing / design
 
@@ -54,6 +57,8 @@ Global skills used by the agent kit. Each skill lives in its own folder with a `
 - [[Agent Kit/skills/blog-writing-guide/SKILL|blog-writing-guide]]
 - [[Agent Kit/skills/create-architectural-decision-record/SKILL|create-architectural-decision-record]]
 - [[Agent Kit/skills/seo-audit/SKILL|seo-audit]]
+- [[Agent Kit/skills/documentation-writer/SKILL|documentation-writer]] — Diátaxis framework
+- [[Agent Kit/skills/prd/SKILL|prd]] — Product Requirements Documents
 
 ## Process / orchestration
 
@@ -66,6 +71,9 @@ Global skills used by the agent kit. Each skill lives in its own folder with a `
 - [[Agent Kit/skills/sred-work-summary/SKILL|sred-work-summary]]
 - [[Agent Kit/skills/brief/SKILL|brief]]
 - [[Agent Kit/skills/prototype/SKILL|prototype]]
+- [[Agent Kit/skills/agentic-workflows/SKILL|agentic-workflows]] — gh-aw workflow router
+- [[Agent Kit/skills/ai-team-orchestration/SKILL|ai-team-orchestration]] — multi-agent team bootstrap
+- [[Agent Kit/skills/automate-this/SKILL|automate-this]] — screen recording automation
 
 ## Discovery / research / memory
 
